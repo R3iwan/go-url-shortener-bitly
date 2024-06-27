@@ -38,7 +38,7 @@ func getURL(inputURL string) string {
 // generateShortURL function takes a long URL as input, makes a request to the Bitly API,
 // and returns the shortened URL.
 func generateShortURL(longURL string) string {
-	bitlyAPIKey := "8d24cc47a3218b3209cd2b9116dac4261dcf89a9"
+	bitlyAPIKey := "YOUR_BITLY_API_KEY"
 	bitlyAPIEndpoint := "https://api-ssl.bitly.com/v4/shorten"
 
 	// Create JSON payload
